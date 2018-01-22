@@ -46,3 +46,10 @@ int main ()
     return 0;
 }
 ```
+
+Compilação e execução
+
+```sh
+$ g++ -o sample_class sample_class.cpp
+$ ./sample_class
+```

@@ -3,6 +3,7 @@
 
 using namespace std;
 
+// How to setup a class in C++
 class Foo
 {
 private:
@@ -14,6 +15,7 @@ public:
     friend ostream& operator<< (ostream& os, const Foo& foo);
 };
 
+// Overloading output operator
 ostream& operator<< (ostream& os, const Foo& foo) 
 {  
     os << "Id = " << foo.id << endl;
@@ -23,17 +25,13 @@ ostream& operator<< (ostream& os, const Foo& foo)
 
 int main ()
 {
-    Foo *foo1 = new Foo(1,"Ana");
-    Foo *foo2 = new Foo(2,"Beto");
-    Foo *foo3 = new Foo(3,"Carla");
+    Foo foo1(1,"Ana");
+    Foo foo2(2,"Beto");
+    Foo foo3(3,"Carla");
 
     cout << foo1 << endl;
     cout << foo2 << endl;
     cout << foo3 << endl;
-
-    delete foo1;
-    delete foo2;
-    delete foo3;
 
     return 0;
 }
