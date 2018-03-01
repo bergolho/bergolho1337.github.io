@@ -14,19 +14,19 @@ code {
   font-family:'Bitstream Vera Sans Mono','Courier', monospace;
 }
 
-.highlight .c { color: #586E75 } /* Comment */
+.highlight .c { color: #FFFFFF } /* Comment */
 .highlight .err { color: #93A1A1 } /* Error */
 .highlight .g { color: #93A1A1 } /* Generic */
-.highlight .k { color: #859900 } /* Keyword */
+.highlight .k { color: #FFFF00 } /* Keyword */
 .highlight .l { color: #93A1A1 } /* Literal */
 .highlight .n { color: #93A1A1 } /* Name */
-.highlight .o { color: #859900 } /* Operator */
+.highlight .o { color: #DC143C } /* Operator */
 .highlight .x { color: #CB4B16 } /* Other */
 .highlight .p { color: #93A1A1 } /* Punctuation */
-.highlight .cm { color: #586E75 } /* Comment.Multiline */
-.highlight .cp { color: #859900 } /* Comment.Preproc */
-.highlight .c1 { color: #586E75 } /* Comment.Single */
-.highlight .cs { color: #859900 } /* Comment.Special */
+.highlight .cm { color: #FFFFFF } /* Comment.Multiline */
+.highlight .cp { color: #FF4500 } /* Comment.Preproc */
+.highlight .c1 { color: #FFFFFF } /* Comment.Single */
+.highlight .cs { color: #FFFFFF } /* Comment.Special */
 .highlight .gd { color: #2AA198 } /* Generic.Deleted */
 .highlight .ge { color: #93A1A1; font-style: italic } /* Generic.Emph */
 .highlight .gr { color: #DC322F } /* Generic.Error */
@@ -39,8 +39,8 @@ code {
 .highlight .gt { color: #93A1A1 } /* Generic.Traceback */
 .highlight .kc { color: #CB4B16 } /* Keyword.Constant */
 .highlight .kd { color: #268BD2 } /* Keyword.Declaration */
-.highlight .kn { color: #859900 } /* Keyword.Namespace */
-.highlight .kp { color: #859900 } /* Keyword.Pseudo */
+.highlight .kn { color: #9370DB } /* Keyword.Namespace */
+.highlight .kp { color: #9370DB } /* Keyword.Pseudo */
 .highlight .kr { color: #268BD2 } /* Keyword.Reserved */
 .highlight .kt { color: #DC322F } /* Keyword.Type */
 .highlight .ld { color: #93A1A1 } /* Literal.Date */
@@ -60,7 +60,7 @@ code {
 .highlight .py { color: #93A1A1 } /* Name.Property */
 .highlight .nt { color: #268BD2 } /* Name.Tag */
 .highlight .nv { color: #268BD2 } /* Name.Variable */
-.highlight .ow { color: #859900 } /* Operator.Word */
+.highlight .ow { color: #9370DB } /* Operator.Word */
 .highlight .w { color: #93A1A1 } /* Text.Whitespace */
 .highlight .mf { color: #2AA198 } /* Literal.Number.Float */
 .highlight .mh { color: #2AA198 } /* Literal.Number.Hex */
